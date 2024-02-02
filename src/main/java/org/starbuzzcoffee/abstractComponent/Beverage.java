@@ -1,4 +1,4 @@
-package org.starbuzzcoffee;
+package org.starbuzzcoffee.abstractComponent;
 
 /**
  * Beverage is an abstract class with two methods for description and cost

@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="885710cd-dc29-4e0d-a61f-e2a41b879c61" name="Changes" comment="DECORATOR PATTERN: we now have our abstract component (Beverage), concrete components (HouseBlend, Espresso, etc) and abstract decorator (CondimentDecorator)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Mocha.java" afterDir="false" />
+    <list default="true" id="885710cd-dc29-4e0d-a61f-e2a41b879c61" name="Changes" comment="DECORATOR PATTERN: implemented the concrete decorators that are the condiments (Mocha, Soy, ecc)">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/abstractComponent/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/DarkRoast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Decaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Decaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/HouseBlend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/HouseBlend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Soy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Soy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/SteamedMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/SteamedMilk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Whip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706894645693</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DECORATOR PATTERN: implemented the concrete decorators that are the condiments (Mocha, Soy, ecc)">
+      <created>1706895454694</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706895454694</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +110,7 @@
     <MESSAGE value="gradle and workspace" />
     <MESSAGE value="implemented Beverage class and some subclasses of it" />
     <MESSAGE value="DECORATOR PATTERN: we now have our abstract component (Beverage), concrete components (HouseBlend, Espresso, etc) and abstract decorator (CondimentDecorator)" />
-    <option name="LAST_COMMIT_MESSAGE" value="DECORATOR PATTERN: we now have our abstract component (Beverage), concrete components (HouseBlend, Espresso, etc) and abstract decorator (CondimentDecorator)" />
+    <MESSAGE value="DECORATOR PATTERN: implemented the concrete decorators that are the condiments (Mocha, Soy, ecc)" />
+    <option name="LAST_COMMIT_MESSAGE" value="DECORATOR PATTERN: implemented the concrete decorators that are the condiments (Mocha, Soy, ecc)" />
   </component>
 </project>

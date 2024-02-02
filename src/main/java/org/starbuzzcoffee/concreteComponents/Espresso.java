@@ -1,4 +1,6 @@
-package org.starbuzzcoffee;
+package org.starbuzzcoffee.concreteComponents;
+
+import org.starbuzzcoffee.abstractComponent.Beverage;
 
 public class Espresso extends Beverage {
 

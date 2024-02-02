@@ -1,4 +1,7 @@
-package org.starbuzzcoffee;
+package org.starbuzzcoffee.concreteDecorators;
+
+import org.starbuzzcoffee.CondimentDecorator;
+import org.starbuzzcoffee.abstractComponent.Beverage;
 
 /**
  * SteamedMilk is a decorator so we extend CondimentDecorator.
