@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="885710cd-dc29-4e0d-a61f-e2a41b879c61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Main.java" afterDir="false" />
+    <list default="true" id="885710cd-dc29-4e0d-a61f-e2a41b879c61" name="Changes" comment="gradle and workspace">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/HouseBlend.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +21,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2bosjIpOvUx80YL4cSe1HUZpHbf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,6 +51,21 @@
       <option name="presentableId" value="Default" />
       <updated>1706892902643</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1706892987205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706892987205</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gradle and workspace">
+      <created>1706893002958</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706893002958</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -54,5 +78,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="gradle and workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="gradle and workspace" />
   </component>
 </project>
