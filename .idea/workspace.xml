@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="885710cd-dc29-4e0d-a61f-e2a41b879c61" name="Changes" comment="DECORATOR PATTERN: implemented the concrete decorators that are the condiments (Mocha, Soy, ecc)">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/abstractComponent/Beverage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/CondimentDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/DarkRoast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/DarkRoast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Decaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Decaf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Espresso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/HouseBlend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/HouseBlend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Mocha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Soy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Soy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/SteamedMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/SteamedMilk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Whip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Whip.java" afterDir="false" />
-    </list>
+    <list default="true" id="885710cd-dc29-4e0d-a61f-e2a41b879c61" name="Changes" comment="DECORATOR PATTERN: implemented the concrete decorators that are the condiments (Mocha, Soy, ecc)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

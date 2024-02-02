@@ -6,6 +6,9 @@ package org.starbuzzcoffee.abstractComponent;
  */
 public abstract class Beverage {
 
+    public enum Size { LARGE, MEDIUM, SMALL };
+    Size size = Size.LARGE;
+
     public String description = "Unknown beverage"; // the description instance variable is set in each sublass and holds a description of the beverage
 
     public String getDescription() {
@@ -13,5 +16,13 @@ public abstract class Beverage {
     }
 
     public abstract double cost(); // this method is abstract because sublasses need to define their own implementation
+
+    public void setSize(Size size) {
+        this.size = size;
+    }
+
+    public Size getSize() {
+        return this.size;
+    }
 
 }

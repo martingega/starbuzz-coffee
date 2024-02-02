@@ -32,6 +32,16 @@ public class Soy extends CondimentDecorator {
      * cost then we add the cost of Soy to the result.
      */
     public double cost() {
-        return beverage.cost() + 0.15;
+        double cost = beverage.cost();
+        // the size propagates all the way to the concrete beverage
+        // soy costs 20, 15 and 10 respectively for large, medium and small coffees
+        if (beverage.getSize() == Size.LARGE) {
+            cost += 0.20;
+        } else if (beverage.getSize() == Size.MEDIUM) {
+            cost += 0.15;
+        } else if (beverage.getSize() == Size.SMALL) {
+            cost += 0.10;
+        }
+        return cost;
     }
 }
