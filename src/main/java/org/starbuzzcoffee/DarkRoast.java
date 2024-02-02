@@ -10,7 +10,11 @@ public class DarkRoast extends Beverage {
         description = "Dark roast coffee";
     }
 
-    // each subclass implement cost() to return the cost of the beverage
+    /*
+     * Here we compute the cost of a Dark roast coffee. We don't have
+     * to worry about adding in condiments in this class, we just need
+     * to return the price of a Dark roast coffee.
+     */
     @Override
     public double cost() {
         return 0.99;

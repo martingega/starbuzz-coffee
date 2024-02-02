@@ -10,7 +10,11 @@ public class Decaf extends Beverage {
         description = "Decaf coffee";
     }
 
-    // each subclass implement cost() to return the cost of the beverage
+    /*
+     * Here we compute the cost of a Decaf coffee. We don't have to worry
+     * about adding in condiments in this class, we just need to return
+     * the price of a Decaf coffee.
+     */
     @Override
     public double cost() {
         return 1.05;

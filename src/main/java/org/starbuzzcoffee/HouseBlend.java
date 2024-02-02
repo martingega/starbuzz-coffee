@@ -10,7 +10,11 @@ public class HouseBlend extends Beverage {
         description = "House blend coffee";
     }
 
-    // each subclass implement cost() to return the cost of the beverage
+    /*
+     * Here we compute the cost of a House blend coffee. We don't have
+     * to worry about adding in condiments in this class, we just need
+     * to return the price of a House blend coffee.
+     */
     @Override
     public double cost() {
         return 0.89;

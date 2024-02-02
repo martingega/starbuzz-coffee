@@ -10,7 +10,11 @@ public class Espresso extends Beverage {
         description = "Espresso coffee";
     }
 
-    // each subclass implement cost() to return the cost of the beverage
+    /*
+     * Here we compute the cost of an Espresso. We don't have to worry
+     * about adding in condiments in this class, we just need to return
+     * the price of an Espresso.
+     */
     @Override
     public double cost() {
         return 1.99;

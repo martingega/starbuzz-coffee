@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="885710cd-dc29-4e0d-a61f-e2a41b879c61" name="Changes" comment="gradle and workspace">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/DarkRoast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Decaf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/HouseBlend.java" afterDir="false" />
+    <list default="true" id="885710cd-dc29-4e0d-a61f-e2a41b879c61" name="Changes" comment="implemented Beverage class and some subclasses of it">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/CondimentDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/starbuzzcoffee/Beverage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706893002958</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implemented Beverage class and some subclasses of it">
+      <created>1706893775539</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706893775539</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +86,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="gradle and workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="gradle and workspace" />
+    <MESSAGE value="implemented Beverage class and some subclasses of it" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented Beverage class and some subclasses of it" />
   </component>
 </project>
